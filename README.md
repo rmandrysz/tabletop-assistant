@@ -1,4 +1,4 @@
-# tabletop-helper
+# tabletop-assistant
 
 Program ma za zadanie ułatwić życie mistrzom gry i graczom klasycznych gier przygodowych jak Dungeons &amp; Dragons, czy Pathfinder.
 Forma programu jest przewidziana na aplikację webową umożliwiającą zapis danych na serwerze.
