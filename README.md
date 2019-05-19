@@ -14,3 +14,21 @@ W miarę postępów projektu przewidziane jest też ewentualne wzbogacenie go o 
 W dalszym stopniu rozwoju możliwe są też dodatkowe opcje takie jak możliwość zapisu notatek mistrza gry oraz graczy, widocznych tylko dla określonych osób.
 
 Po zaprogramowaniu strony wizalnej projektu zdecyduję, czy do dalszego rozwoju strony skorzystam z języka Django czy też php.
+
+
+Aktualizacja z dnia 19.05.2019
+
+Osiągnięte punkty rozwoju projektu:
+- System logowania i rejestracji
+- Obsługa połączenia z bazą danych
+- System szyfrowania haseł
+- Obsługa błędów połączenia z bazą danych
+- Szkielet wizualny serwisu
+
+Elementy pozostałe do zaprojektowania:
+- Główna zasada działania programu
+- System symulacji rzutów kośćmi
+- System tworzenia kart postaci
+- Ewentualne dodatkowe funkcje projektu
+
+Zdecydowałem, że w dalszym rozwoju projektu skorzystam z języka php z uwagi na moje doświadczenie w korzystaniu z tego języka. Całość obsługi połączenia z bazą danych i inne elementy zbudowałem w oparciu właśnie o ten język. Ponadto korzystam z jQuery oraz Java Script do obsługi licznych funkcji programu, jeszcze w etapie tworzenia.
