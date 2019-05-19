@@ -16,6 +16,7 @@ W dalszym stopniu rozwoju możliwe są też dodatkowe opcje takie jak możliwoś
 Po zaprogramowaniu strony wizalnej projektu zdecyduję, czy do dalszego rozwoju strony skorzystam z języka Django czy też php.
 
 
+
 Aktualizacja z dnia 19.05.2019
 
 Osiągnięte punkty rozwoju projektu:
