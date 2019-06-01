@@ -13,7 +13,7 @@
 	require_once "begin.html";
 ?>
 
-<div id="main">
+
 		
 <div id="login">
 	<form class="loginform" action="login.php" method="POST">
@@ -59,7 +59,7 @@
 	</form>
 				
 				
-</div>
+
 </div>
 		
 <?php

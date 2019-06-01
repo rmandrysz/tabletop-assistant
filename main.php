@@ -17,11 +17,7 @@
 	
 	<div id="left">
 	
-		<?php
-			
-			echo "<label>Logged in as: ".$_SESSION['user']."!</label>";
-			
-		?>
+		
 	
 	</div>
 
@@ -35,68 +31,87 @@
 		
 		<div id="dice_menu">
 		
+		
 			<div id="d4_container" class="dice_container">
 			
-				<p>D4 container!</p>
-				<label><input type="number" min="0" value=0></input>d4</label><button id="roll_d4" class="roll_button">roll</button>
-				<p id="d4_result" class="roll_result"></p>
+				<img src="layout_imgs/d4.png" class="dice_img"/>
+				
+				<label><input type="number" min="0" value=0 id="d4_input"></input>d4</label>
+				<label class="modifier_label"><span class="modifier_span">modifier</span><input type="number" id="d4_mod" value=0 minlength="1"></input></label>
+				<button id="roll_d4" class="roll_button">roll</button>
+				<div class="tooldiv"><p id="d4_result" class="roll_result"><span class="tooltip"></span></p></div>
 				
 			</div>
 			
 			<div id="d6_container" class="dice_container">
 			
-				<p>D6 container!</p>
-				<label><input type="number" min="0" value=0></input>d6</label><button id="roll_d6" class="roll_button">roll</button>
-				<p id="d6_result" class="roll_result"></p>
+				<img src="layout_imgs/d6.png" class="dice_img"/>
+				
+				<label><input type="number" min="0" value=0 id="d6_input"></input>d6</label>
+				<label class="modifier_label"><span class="modifier_span">modifier</span><input type="number" id="d6_mod" value=0 minlength="1"></input></label>
+				<button id="roll_d6" class="roll_button">roll</button>
+				<div class="tooldiv"><p id="d6_result" class="roll_result"><span class="tooltip"></span></p></div>
 				
 			</div>
 			
 			<div id="d8_container" class="dice_container">
 			
-				<p>D8 container!</p>
-				<label><input type="number" min="0" value=0></input>d8</label><button id="roll_d8" class="roll_button">roll</button>
-				<p id="d8_result" class="roll_result"></p>
+				<img src="layout_imgs/d8.png" class="dice_img"/>
+				
+				<label><input type="number" min="0" value=0 id="d8_input"></input>d8</label>
+				<label class="modifier_label"><span class="modifier_span">modifier</span><input type="number" id="d8_mod" value=0 minlength="1"></input></label>
+				<button id="roll_d8" class="roll_button">roll</button>
+				<div class="tooldiv"><p id="d8_result" class="roll_result"><span class="tooltip"></span></p></div>
 				
 			</div>
 			
 			<div id="d10_container" class="dice_container">
 			
-				<p>D10 container!</p>
-				<label><input type="number" min="0" value=0></input>d10</label><button id="roll_d10" class="roll_button">roll</button>
-				<p id="d10_result" class="roll_result"></p>
+				<img src="layout_imgs/d10.png" class="dice_img"/>
+				
+				<label><input type="number" min="0" value=0 id="d10_input"></input>d10</label>
+				<label class="modifier_label"><span class="modifier_span">modifier</span><input type="number" id="d10_mod" value=0 minlength="1"></input></label>
+				<button id="roll_d10" class="roll_button">roll</button>
+				<div class="tooldiv"><p id="d10_result" class="roll_result"><span class="tooltip"></span></p></div>
 				
 			</div>
 			
 			<div id="d12_container" class="dice_container">
 			
-				<p>D12 container!</p>
-				<label><input type="number" min="0" value=0></input>d12</label><button id="roll_d12" class="roll_button">roll</button>
-				<p id="d12_result" class="roll_result"></p>
+				<img src="layout_imgs/d12.png" class="dice_img"/>
+				
+				<label><input type="number" min="0" value=0 id="d12_input"></input>d12</label>
+				<label class="modifier_label"><span class="modifier_span">modifier</span><input type="number" id="d12_mod" value=0 minlength="1"></input></label>
+				<button id="roll_d12" class="roll_button">roll</button>
+				<div class="tooldiv"><p id="d12_result" class="roll_result"><span class="tooltip"></span></p></div>
 				
 			</div>
 			
 			<div id="d20_container" class="dice_container">
 			
-				<p>D20 container!</p>
-				<label><input type="number" min="0" value=0></input>d20</label><button id="roll_d20" class="roll_button">roll</button>
-				<p id="d20_result" class="roll_result"></p>
+				<img src="layout_imgs/d20.png" class="dice_img"/>
+				
+				<label><input type="number" min="0" value=0 id="d20_input"></input>d20</label>
+				<label class="modifier_label"><span class="modifier_span">modifier</span><input type="number" id="d20_mod" value=0 minlength="1"></input></label>
+				<button id="roll_d20" class="roll_button">roll</button>
+				<div class="tooldiv"><p id="d20_result" class="roll_result"><span class="tooltip"></span></p></div>
 				
 			</div>
 			
 			<div id="d100_container" class="dice_container">
 			
-				<p>D100 container!</p>
-				<label><input type="number" min="0" value=0></input>d100</label><button id="roll_d100" class="roll_button">roll</button>
-				<p id="d100_result" class="roll_result"></p>
+				<img src="layout_imgs/d100.png" class="dice_img"/>
+				
+				<label><input type="number" min="0" value=0 id="d100_input"></input>d100</label>
+				<label class="modifier_label"><span class="modifier_span">modifier</span><input type="number" id="d100_mod" value=0 minlength="1"></input></label>
+				<button id="roll_d100" class="roll_button">roll</button>
+				<div class="tooldiv"><p id="d100_result" class="roll_result"><span class="tooltip"></span></p></div>
 				
 			</div>
 		
 		</div>		
 		
 			
-			<br>
-			
-			<label><a href="logout.php">Log out</a><label>
 			
 		</div>
 			

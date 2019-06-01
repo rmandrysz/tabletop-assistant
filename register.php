@@ -116,10 +116,7 @@
 	require_once "begin.html";
 	
 ?>
-		
-<div id="main">	
 	
-	<div id="register">
 		<form class="loginform" method="POST">
 
 			<label>Login:<br> <input type="text" name=login value="<?php
@@ -220,7 +217,6 @@
 			
 	</div>
 	
-</div>
 
 <?php
 
