@@ -33,3 +33,11 @@ Elementy pozostałe do zaprojektowania:
 - Ewentualne dodatkowe funkcje projektu
 
 Zdecydowałem, że w dalszym rozwoju projektu skorzystam z języka php z uwagi na moje doświadczenie w korzystaniu z tego języka. Całość obsługi połączenia z bazą danych i inne elementy zbudowałem w oparciu właśnie o ten język. Ponadto korzystam z jQuery oraz Java Script do obsługi licznych funkcji programu, jeszcze w etapie tworzenia.
+
+
+
+Aktualizacja z dnia 05.06.2019
+
+Finalna wersja projektu zawiera system rejestracji, system logowania, szyfrowanie haseł, obsługę połączenia z bazą danych, obsługę błędów połączenia z bazą danych, rozwijane menu na ekranie głównym, system symulacji rzutów kośćmi z modyfikatorami, oraz okieno informujące o wynikach poszczególnych rzutów. 
+
+Osiągnąłem tylko część z założonych funkcji projektu, lecz nawet sam finalny produkt jest wielce satysfakcjonujący, ponieważ stanowi bardzo dobrą bazę do dalszej pracy i dalszego rozwoju. Projekt stworzyłem z zamiarem udostępnienia go i dalszego ulepszania według potrzeb moich i ewentualnych użytkowników. Obecny stan jest przygotowany na dalsze usprawnienia i ulepszenia.
